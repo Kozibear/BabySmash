@@ -18,7 +18,7 @@ public class Spring : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Player")
+        if (collision.collider.tag == "Player1"|| collision.collider.tag == "Player2")
         {
             collision.collider.SendMessage("BeSpringed", springThrust);
         }

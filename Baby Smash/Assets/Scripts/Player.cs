@@ -83,7 +83,7 @@ public class Player : MonoBehaviour {
     {
         if (isJumping)
         {
-            if (collision.collider.tag == "Player")
+            if (collision.collider.tag == "Player1"|| collision.collider.tag == "Player2")
             {
                 collision.collider.SendMessage("Stunned");
             }

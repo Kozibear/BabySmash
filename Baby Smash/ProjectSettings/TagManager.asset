@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Player1
+  - Player2
+  - Object1
+  - Object2
   layers:
   - Default
   - TransparentFX
