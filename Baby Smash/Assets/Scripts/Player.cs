@@ -93,7 +93,7 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Ground")
+        if (collision.collider.tag == "Ground"|| collision.collider.tag == "Object1" || collision.collider.tag == "Object2")
         {
             isJumping = false;
         }
@@ -101,7 +101,7 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Ground")
+        if (collision.collider.tag == "Ground" || collision.collider.tag == "Object1" || collision.collider.tag == "Object2")
         {
             isJumping = true;
         }
