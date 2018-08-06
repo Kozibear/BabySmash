@@ -25,4 +25,16 @@ public class Trigger : MonoBehaviour {
             PlayerManager.Instance.scoreP2++;
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Object1")
+        {
+            PlayerManager.Instance.scoreP1--;
+        }
+        if (collision.tag == "Object2")
+        {
+            PlayerManager.Instance.scoreP2--;
+        }
+    }
 }

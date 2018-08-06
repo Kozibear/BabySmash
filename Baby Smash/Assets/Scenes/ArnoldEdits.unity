@@ -1642,6 +1642,56 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &1718746485
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965467897291876, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398978672216114, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.3260442
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245806488222684, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+      propertyPath: m_Name
+      value: Spring (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f99ed7a6e451c340add0fe55659714a, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1736892977
 Prefab:
   m_ObjectHideFlags: 0
