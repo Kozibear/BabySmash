@@ -14,7 +14,7 @@ public class Player : MonoBehaviour {
     public float jumpThrust;
     public float stunnedTimeVal;
 
-    private bool isJumping;
+    private bool isJumping=true;
     private bool isStunned;
 
     private Rigidbody2D rb;
@@ -24,6 +24,7 @@ public class Player : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
+        transform.eulerAngles = new Vector3(0, 0, 0);
         if (isStunned)
         {
             if (stunnedTimeVal >= 0.1)
@@ -46,7 +47,7 @@ public class Player : MonoBehaviour {
 
     private void Move()
     {
-        transform.eulerAngles = new Vector3(0, 0, 0);
+        
         if (Input.GetKey(leftKey))
         {
             transform.Translate(Vector3.left * moveSpeed * Time.fixedDeltaTime);
