@@ -73,6 +73,11 @@ public class Player : MonoBehaviour {
         isStunned = true;
     }
 
+    private void BeSpringed(int springThrust)
+    {
+        rb.AddForce(new Vector2(0, springThrust));
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (isJumping)
