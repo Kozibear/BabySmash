@@ -9,6 +9,8 @@ TagManager:
   - Player2
   - Object1
   - Object2
+  - Window
+  - BrokenWindow
   layers:
   - Default
   - TransparentFX
