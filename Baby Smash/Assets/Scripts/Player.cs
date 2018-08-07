@@ -9,21 +9,51 @@ public class Player : MonoBehaviour {
     public KeyCode upKey;
     public KeyCode downKey;
     public KeyCode jumpKey;
+    public KeyCode screamKey;
 
     public float moveSpeed;
     public float jumpThrust;
     public float stunnedTimeVal;
+    public float screamForce;
+    public float playerNumber;
+    private float screamTimeVal;
 
     private bool isJumping=true;
     private bool isStunned;
+    private bool isScreamed = false;
+    private float x;
+    private float y;
+    private float z;
+    private float[] screamArray;
+
 
     private Rigidbody2D rb;
 
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
 	}
-	
-	void FixedUpdate () {
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(screamKey)&&!isScreamed)
+        {
+            isScreamed = true;
+        }
+        if (isScreamed)
+        {
+            if (screamTimeVal > 0.1)
+            {
+                screamTimeVal -= Time.deltaTime;
+            }
+            else if (screamTimeVal <= 0.1)
+            {
+                isScreamed = false;
+                screamTimeVal = 3;
+            }
+        }
+    }
+
+    void FixedUpdate () {
         transform.eulerAngles = new Vector3(0, 0, 0);
         if (isStunned)
         {
@@ -42,6 +72,7 @@ public class Player : MonoBehaviour {
             
             Move();
             Jump();
+            
         }
 	}
 
@@ -77,6 +108,27 @@ public class Player : MonoBehaviour {
     private void BeSpringed(int springThrust)
     {
         rb.AddForce(new Vector2(0, springThrust));
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (!isScreamed)
+        {
+            if (Input.GetKeyDown(screamKey))
+            {
+
+                if (collision.tag == "Objects" || collision.tag == "Object1" || collision.tag == "Object2")
+                {
+                    x = transform.position.x;
+                    y = transform.position.y;
+                    z = transform.position.z;
+                    screamArray = new float[5] { x, y, z, screamForce, playerNumber };
+                    collision.SendMessage("BeScreamed", screamArray);
+
+                }
+                ;
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
