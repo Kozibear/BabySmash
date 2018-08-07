@@ -124,9 +124,11 @@ public class Player : MonoBehaviour {
                     z = transform.position.z;
                     screamArray = new float[5] { x, y, z, screamForce, playerNumber };
                     collision.SendMessage("BeScreamed", screamArray);
-
                 }
-                ;
+                if (collision.tag == "Window")
+                {
+                    collision.SendMessage("BeScreamed",playerNumber);
+                }
             }
         }
     }
