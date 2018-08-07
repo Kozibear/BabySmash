@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
 
     public float moveSpeed;
     public float jumpThrust;
-    public float stunnedTimeVal;
+    public float stunnedTime;
     public float screamForce;
     public float playerNumber;
     public float screamTimeVal;
@@ -25,12 +25,14 @@ public class Player : MonoBehaviour {
     private float y;
     private float z;
     private float[] screamArray;
+    private float stunnedTimeVal;
 
 
     private Rigidbody2D rb;
 
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
+        stunnedTimeVal = stunnedTime;
 	}
 
     private void Update()
@@ -64,7 +66,7 @@ public class Player : MonoBehaviour {
             else if (stunnedTimeVal < 0.1)
             {
                 isStunned = false;
-                stunnedTimeVal = 1;
+                stunnedTimeVal = stunnedTime;
             }  
         }
         else if (!isStunned)
@@ -112,11 +114,11 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!isScreamed)
-        {
-            //if (Input.GetKeyDown(screamKey))
-            //{
-
+        //if (!isScreamed)
+        //{
+            if (Input.GetKeyDown(screamKey))
+            {
+            Stunned();
                 if (collision.tag == "Objects" || collision.tag == "Object1" || collision.tag == "Object2")
                 {
                     x = transform.position.x;
@@ -129,8 +131,8 @@ public class Player : MonoBehaviour {
                 {
                     collision.SendMessage("BeScreamed",playerNumber);
                 }
-             //}
-        }
+             }
+        //}
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
