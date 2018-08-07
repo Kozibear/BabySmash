@@ -16,11 +16,11 @@ public class Player : MonoBehaviour {
     public float stunnedTimeVal;
     public float screamForce;
     public float playerNumber;
-    private float screamTimeVal;
+    public float screamTimeVal;
 
     private bool isJumping=true;
     private bool isStunned;
-    private bool isScreamed = false;
+    public bool isScreamed = false;
     private float x;
     private float y;
     private float z;
@@ -114,8 +114,8 @@ public class Player : MonoBehaviour {
     {
         if (!isScreamed)
         {
-            if (Input.GetKeyDown(screamKey))
-            {
+            //if (Input.GetKeyDown(screamKey))
+            //{
 
                 if (collision.tag == "Objects" || collision.tag == "Object1" || collision.tag == "Object2")
                 {
@@ -129,7 +129,7 @@ public class Player : MonoBehaviour {
                 {
                     collision.SendMessage("BeScreamed",playerNumber);
                 }
-            }
+             //}
         }
     }
 
