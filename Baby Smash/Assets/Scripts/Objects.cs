@@ -5,10 +5,12 @@ using UnityEngine;
 public class Objects : MonoBehaviour {
 
     private Vector3 forceDirection;
+    private SpriteRenderer sr;
 
 	// Use this for initialization
 	void Start () {
         //rb.GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -21,10 +23,12 @@ public class Objects : MonoBehaviour {
         if (collision.collider.tag == "Player1"|| collision.collider.tag == "Object1")
         {
             gameObject.tag = "Object1";
+            sr.color = new Vector4(255,0,0,255);
         }
         else if (collision.collider.tag == "Player2"|| collision.collider.tag == "Object2")
         {
             gameObject.tag = "Object2";
+            sr.color = new Vector4(0, 0, 255, 255);
         }
     }
 
