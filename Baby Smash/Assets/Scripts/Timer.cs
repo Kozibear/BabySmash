@@ -16,8 +16,12 @@ public class Timer : MonoBehaviour {
 
 	public GameObject TimesUpText;
 
+	public GameObject playerManager;
+
 	// Use this for initialization
 	void Start () {
+
+		GameSave.gameSave.Load ();
 
 		nextScene = true;
 
@@ -30,6 +34,11 @@ public class Timer : MonoBehaviour {
 		timeLeftText.text = "Time: " + timeLeft;
 
 		if (timeLeft == 0) {
+
+			GameSave.gameSave.redPlayerScore = playerManager.GetComponent<PlayerManager> ().scoreP1;
+			GameSave.gameSave.bluePlayerScore = playerManager.GetComponent<PlayerManager> ().scoreP2;
+
+			GameSave.gameSave.Save ();
 
 			TimesUpText.SetActive (true);
 
@@ -52,6 +61,18 @@ public class Timer : MonoBehaviour {
 
 				StartCoroutine (ReturnToTitle());
 			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.U)) {
+			
+			GameSave.gameSave.redPlayerScore = 0;
+			GameSave.gameSave.bluePlayerScore = 0;
+
+			GameSave.gameSave.Save ();
+
+			playerManager.GetComponent<PlayerManager> ().scoreP1 = GameSave.gameSave.redPlayerScore;
+			playerManager.GetComponent<PlayerManager> ().scoreP2 = GameSave.gameSave.bluePlayerScore;
+
 		}
 	}
 

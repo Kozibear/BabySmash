@@ -3085,8 +3085,13 @@ Prefab:
     - target: {fileID: 114990515067873082, guid: ece91f9095d12fa429ec5e7b61b2b4cc,
         type: 2}
       propertyPath: timeLeft
-      value: 999
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114990515067873082, guid: ece91f9095d12fa429ec5e7b61b2b4cc,
+        type: 2}
+      propertyPath: playerManager
+      value: 
+      objectReference: {fileID: 1809253952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece91f9095d12fa429ec5e7b61b2b4cc, type: 2}
   m_IsPrefabAsset: 0
@@ -4671,6 +4676,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1809253952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500504958350404, guid: bacbbb71895cda946acad75d12bde970,
+    type: 2}
+  m_PrefabInternal: {fileID: 746728565}
 --- !u!1 &1856620768
 GameObject:
   m_ObjectHideFlags: 0
