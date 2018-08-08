@@ -45,6 +45,13 @@ public class Timer : MonoBehaviour {
 
 				StartCoroutine (OnToStage3());
 			}
+
+			if (sceneNumber == 3 && nextScene) {
+
+				nextScene = false;
+
+				StartCoroutine (ReturnToTitle());
+			}
 		}
 	}
 
@@ -60,13 +67,20 @@ public class Timer : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("DummyStage2", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage2", LoadSceneMode.Single);
 	}
 
 	private IEnumerator OnToStage3()
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("DummyStage3", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage3", LoadSceneMode.Single);
+	}
+
+	private IEnumerator ReturnToTitle()
+	{
+		yield return new WaitForSeconds (6);
+
+		SceneManager.LoadScene ("Title Screen", LoadSceneMode.Single);
 	}
 }
