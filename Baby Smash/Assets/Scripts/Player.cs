@@ -18,9 +18,9 @@ public class Player : MonoBehaviour {
     public float playerNumber;
     public float screamTimeVal;
 
-    private bool isJumping=true;
-    private bool isStunned;
-    public bool isScreamed = false;
+    public bool isJumping=true;
+    public bool isStunned;
+    private bool isScreamed = false;
     private float x;
     private float y;
     private float z;

@@ -52,10 +52,6 @@ public class Cat : MonoBehaviour {
 
     private void BeScreamed(float[] screamArray)
     {
-        Vector3 position = new Vector3(screamArray[0], screamArray[1], screamArray[2]);
-        forceDirection = transform.position - position;
-        forceDirection = forceDirection.normalized;
-        GetComponent<Rigidbody2D>().AddForce(forceDirection * screamArray[3]);
         isAwake = true;
     }
 }
