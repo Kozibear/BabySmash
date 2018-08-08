@@ -16,8 +16,12 @@ public class Timer : MonoBehaviour {
 
 	public GameObject TimesUpText;
 
+	public GameObject playerManager;
+
 	// Use this for initialization
 	void Start () {
+
+		GameSave.gameSave.Load ();
 
 		nextScene = true;
 
@@ -30,6 +34,11 @@ public class Timer : MonoBehaviour {
 		timeLeftText.text = "Time: " + timeLeft;
 
 		if (timeLeft == 0) {
+
+			GameSave.gameSave.redPlayerScore = playerManager.GetComponent<PlayerManager> ().scoreP1;
+			GameSave.gameSave.bluePlayerScore = playerManager.GetComponent<PlayerManager> ().scoreP2;
+
+			GameSave.gameSave.Save ();
 
 			TimesUpText.SetActive (true);
 
@@ -45,6 +54,25 @@ public class Timer : MonoBehaviour {
 
 				StartCoroutine (OnToStage3());
 			}
+
+			if (sceneNumber == 3 && nextScene) {
+
+				nextScene = false;
+
+				StartCoroutine (ReturnToTitle());
+			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.U)) {
+			
+			GameSave.gameSave.redPlayerScore = 0;
+			GameSave.gameSave.bluePlayerScore = 0;
+
+			GameSave.gameSave.Save ();
+
+			playerManager.GetComponent<PlayerManager> ().scoreP1 = GameSave.gameSave.redPlayerScore;
+			playerManager.GetComponent<PlayerManager> ().scoreP2 = GameSave.gameSave.bluePlayerScore;
+
 		}
 	}
 
@@ -60,13 +88,20 @@ public class Timer : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("DummyStage2", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage2", LoadSceneMode.Single);
 	}
 
 	private IEnumerator OnToStage3()
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("DummyStage3", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage3", LoadSceneMode.Single);
+	}
+
+	private IEnumerator ReturnToTitle()
+	{
+		yield return new WaitForSeconds (6);
+
+		SceneManager.LoadScene ("Title Screen", LoadSceneMode.Single);
 	}
 }

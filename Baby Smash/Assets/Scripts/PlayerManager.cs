@@ -30,7 +30,10 @@ public class PlayerManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+		GameSave.gameSave.Load ();
+
+		scoreP1 = GameSave.gameSave.redPlayerScore;
+		scoreP2 = GameSave.gameSave.bluePlayerScore;
 	}
 	
 	// Update is called once per frame
@@ -38,4 +41,5 @@ public class PlayerManager : MonoBehaviour {
         scoreP1Text.text = "Player1 Score:" + scoreP1.ToString();
         scoreP2Text.text = "Player2 Score:" + scoreP2.ToString();
     }
+
 }
