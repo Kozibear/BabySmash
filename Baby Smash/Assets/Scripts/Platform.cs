@@ -6,9 +6,9 @@ public class Platform : MonoBehaviour {
 
     private PlatformEffector2D pe2d;
     private float disableTimeValP1=0.5f;
-    private bool isDisabledP1=false;
-    private float disableTimeValP2 = 0.5f;
-    private bool isDisabledP2 = false;
+    public bool isDisabledP1=false;
+    //private float disableTimeValP2 = 0.5f;
+    //public bool isDisabledP2 = false;
 
     // Use this for initialization
     void Start () {
@@ -54,7 +54,7 @@ public class Platform : MonoBehaviour {
         //}
         //if (playerNumber == 2)
         //{
-        //    ;
+        //    pe2d.colliderMask -= 9; 
         //    isDisabledP2 = true;
         //}
 
