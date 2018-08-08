@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4965467897291876}
   - component: {fileID: 212821626628628176}
+  - component: {fileID: 114271867691477398}
   m_Layer: 0
   m_Name: Spring
   m_TagString: Untagged
@@ -157,6 +158,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1105962906432262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1881a8ac0b811e840a6d996479881291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  springThrust: 600
+--- !u!114 &114271867691477398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245806488222684}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1881a8ac0b811e840a6d996479881291, type: 3}
