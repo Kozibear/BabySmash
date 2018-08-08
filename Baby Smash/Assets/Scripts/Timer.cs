@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour {
 		timeLeftText.text = "Time: " + timeLeft;
 
 		if (timeLeft == 0) {
-			print ("end");
+
 			TimesUpText.SetActive (true);
 
 			if (sceneNumber == 1 && nextScene) {
@@ -53,7 +53,6 @@ public class Timer : MonoBehaviour {
 		while (timeLeft > 0) {
 			yield return new WaitForSeconds (1);
 			timeLeft -= 1;
-			print (timeLeft);
 		}
 	}
 
