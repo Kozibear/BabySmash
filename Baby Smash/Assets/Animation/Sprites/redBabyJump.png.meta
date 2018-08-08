@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: e9c52b8216be75b4fa20bab18dbcedda
-=======
-guid: 8a471cd1b9b09284790ac650c08e733f
->>>>>>> 3cf5564753057cfacc3bd0bf6343ea91eeeef91b
+guid: 52e1900ae0d4cc94fa486f21dc0b4310
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: redBabyJump 0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -35,7 +32,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -44,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -64,10 +61,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,15 +72,31 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: redBabyJump 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 199
+        height: 280
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43464259c2a89940b9bb4060851f261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-<<<<<<< HEAD
-    spriteID: 6505521d0c86ce24a9734f91232054d6
-=======
-    spriteID: b56ee6866aff6f94097d733b859c471c
->>>>>>> 3cf5564753057cfacc3bd0bf6343ea91eeeef91b
+    spriteID: 14f6d36236d47ae4a83fffa0e8105fda
     vertices: []
     indices: 
     edges: []
