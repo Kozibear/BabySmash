@@ -74,6 +74,7 @@ public class Player : MonoBehaviour {
             
             Move();
             Jump();
+
             
         }
 	}
@@ -143,21 +144,32 @@ public class Player : MonoBehaviour {
             {
                 collision.collider.SendMessage("Stunned");
             }
-        }
-
+        }   
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Ground"|| collision.collider.tag == "Object1" || collision.collider.tag == "Object2")
+        if (collision.collider.tag == "Ground"|| collision.collider.tag == "Object1" || collision.collider.tag == "Object2" || collision.collider.tag == "Platform")
         {
             isJumping = false;
         }
+        if (collision.collider.tag == "Platform")
+        {
+            if (Input.GetKeyDown(downKey))
+            {
+                collision.collider.SendMessage("JumpDown", playerNumber);
+            }
+            
+        }
+        //if (Input.GetKeyUp(downKey))
+        //{
+        //    collision.collider.SendMessage("Resume");
+        //}
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Ground" || collision.collider.tag == "Object1" || collision.collider.tag == "Object2")
+        if (collision.collider.tag == "Ground" || collision.collider.tag == "Object1" || collision.collider.tag == "Object2" || collision.collider.tag == "Platform")
         {
             isJumping = true;
         }
