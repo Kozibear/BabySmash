@@ -120,7 +120,7 @@ public class Player : MonoBehaviour {
             if (Input.GetKeyDown(screamKey))
             {
             Stunned();
-                if (collision.tag == "Objects" || collision.tag == "Object1" || collision.tag == "Object2")
+                if (collision.tag == "Objects" || collision.tag == "Object1" || collision.tag == "Object2"|| collision.tag == "Cat")
                 {
                     x = transform.position.x;
                     y = transform.position.y;
