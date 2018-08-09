@@ -7,11 +7,15 @@ public class playerAnimationController : MonoBehaviour
 
     public KeyCode leftKey;
     public KeyCode rightKey;
+    public KeyCode jumpKey;
     public KeyCode screamKey;
     private SpriteRenderer sr;
     private Animator Anim;
     private bool isJumping;
     private bool isStunned;
+    public AudioClip jumpAudio;
+    public AudioClip screamAudio;
+    public AudioSource playerAudio;
     // Use this for initialization
     void Start()
     {
@@ -68,10 +72,23 @@ public class playerAnimationController : MonoBehaviour
             Anim.SetBool("isStunned", false);
         }
 
-        //if (Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P1ScreamAnim"|| Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P2ScreamAnim")
-        //{
-        //    transform.position = transform.position + new Vector3(0, -1, 0);
-        //}
+        if (Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P1ScreamAnim" || Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P2ScreamAnim")
+        {
+            playerAudio.clip = screamAudio;
+            if (!playerAudio.isPlaying)
+            {
+                playerAudio.Play();
+            }
+        }
+
+        if (Input.GetKeyDown(jumpKey)&&!isJumping)
+        {
+            playerAudio.clip = jumpAudio;
+            if (!playerAudio.isPlaying)
+            {
+                playerAudio.Play();
+            }
+        }
 
     }
 }
