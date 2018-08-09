@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerAnimationController : MonoBehaviour {
+public class playerAnimationController : MonoBehaviour
+{
 
     public KeyCode leftKey;
     public KeyCode rightKey;
@@ -12,13 +13,15 @@ public class playerAnimationController : MonoBehaviour {
     private bool isJumping;
     private bool isStunned;
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         sr = GetComponent<SpriteRenderer>();
         Anim = GetComponent<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         int key1 = 0;
         int key2 = 0;
         isJumping = GetComponentInParent<Player>().isJumping;
@@ -35,7 +38,7 @@ public class playerAnimationController : MonoBehaviour {
                 sr.flipX = false;
             }
         }
-        
+
 
         if (Input.GetKeyDown(screamKey))
         {
@@ -64,5 +67,11 @@ public class playerAnimationController : MonoBehaviour {
         {
             Anim.SetBool("isStunned", false);
         }
+
+        //if (Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P1ScreamAnim"|| Anim.GetCurrentAnimatorClipInfo(0)[0].clip.name == "P2ScreamAnim")
+        //{
+        //    transform.position = transform.position + new Vector3(0, -1, 0);
+        //}
+
     }
 }

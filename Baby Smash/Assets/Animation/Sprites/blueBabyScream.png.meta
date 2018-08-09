@@ -66,7 +66,18 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -83,17 +94,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 735
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4479a900737d664f99b3b6c09951327
+      spriteID: 3cbcd7ed428d57d4eb5e8c47e49a9ae9
       vertices: []
       indices: 
       edges: []
@@ -102,18 +113,18 @@ TextureImporter:
       name: blueBabyScream 1
       rect:
         serializedVersion: 2
-        x: 394
-        y: 735
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 795
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b47264b816fda3a4981acb66b6d2cae3
+      spriteID: 40a2785ab78f5c14ca26df3da79e9534
       vertices: []
       indices: 
       edges: []
@@ -122,18 +133,18 @@ TextureImporter:
       name: blueBabyScream 2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 446
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 1582
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5e86cf4b34805d4a9864b8bd365030c
+      spriteID: 279e5e5cb3a6bf14891e7d29b0fc0968
       vertices: []
       indices: 
       edges: []
@@ -142,18 +153,18 @@ TextureImporter:
       name: blueBabyScream 3
       rect:
         serializedVersion: 2
-        x: 394
-        y: 446
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 2373
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f44474b4ee5be7849b68e572fed68f2c
+      spriteID: 6653d8ae43c078e4d8e78e092691f042
       vertices: []
       indices: 
       edges: []
@@ -162,18 +173,18 @@ TextureImporter:
       name: blueBabyScream 4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 157
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 3164
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab11150642782b34695f5567c2b818eb
+      spriteID: 66676a515a62e0047be6d49f9a29f6ad
       vertices: []
       indices: 
       edges: []
@@ -182,18 +193,18 @@ TextureImporter:
       name: blueBabyScream 5
       rect:
         serializedVersion: 2
-        x: 394
-        y: 157
-        width: 394
-        height: 289
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 664
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df83638a168603742b2b7281c0b8f617
+      spriteID: e1bb2342eb0960a4e9b80a7c5db8c492
       vertices: []
       indices: 
       edges: []
@@ -201,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 285826da3ea06634184b1259dbf6fd30
+    spriteID: 6599c3450c97b014387e2eba4ca3022e
     vertices: []
     indices: 
     edges: []
