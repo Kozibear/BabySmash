@@ -3374,7 +3374,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4805417249382118, guid: a609c2eb28a815740925f7eae65c9ff8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -6.12
+      value: -5.83
       objectReference: {fileID: 0}
     - target: {fileID: 4805417249382118, guid: a609c2eb28a815740925f7eae65c9ff8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3399,6 +3399,37 @@ Prefab:
     - target: {fileID: 4805417249382118, guid: a609c2eb28a815740925f7eae65c9ff8, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212938280715324792, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300016, guid: ee3e546c2a715bd4da791661d951e74b,
+        type: 3}
+    - target: {fileID: 212938280715324792, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 212938280715324792, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 212938280715324792, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212938280715324792, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61953001642523926, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -1.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a609c2eb28a815740925f7eae65c9ff8, type: 2}
@@ -5953,6 +5984,16 @@ Prefab:
     - target: {fileID: 4805417249382118, guid: 855b1125a6cd3e84b839a9fe1f0462f6, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 61953001642523926, guid: 855b1125a6cd3e84b839a9fe1f0462f6,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61953001642523926, guid: 855b1125a6cd3e84b839a9fe1f0462f6,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 855b1125a6cd3e84b839a9fe1f0462f6, type: 2}
