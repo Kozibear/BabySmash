@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene1Final.unity
     guid: c45740e66bc98de4db137b2e4f8561e8
   - enabled: 1
-    path: Assets/Scenes/Sence2Final.unity
-    guid: ff2ece503c5be994e81730ba043b0e22
+    path: Assets/Scenes/Scene2Final.unity
+    guid: dbf3e028ea94063479cce6d9854ddc81
   - enabled: 1
     path: Assets/Scenes/Stage3Final.unity
     guid: 3e26dd62c1dd5e24c8ad782c83a9db9f
   - enabled: 0
     path: Assets/Scenes/Stage2.unity
     guid: 9272d38c188feaa44b29f7127225cc70
+  - enabled: 0
+    path: Assets/Scenes/Sence2Final.unity
+    guid: ff2ece503c5be994e81730ba043b0e22
   - enabled: 0
     path: Assets/Scenes/BugFrienD's Scene.unity
     guid: f7f7f9149cfe45c42a1dc65b9fbe078f
