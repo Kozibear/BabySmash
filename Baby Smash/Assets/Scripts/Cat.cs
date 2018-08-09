@@ -12,7 +12,7 @@ public class Cat : MonoBehaviour {
     public float speed;
     public float thrust;
     private Vector3 forceDirection;
-    private bool isAwake=false;
+    public bool isAwake=false;
 
     // Use this for initialization
     void Start()
