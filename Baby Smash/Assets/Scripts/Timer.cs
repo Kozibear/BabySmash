@@ -16,6 +16,10 @@ public class Timer : MonoBehaviour {
 
 	public GameObject TimesUpText;
 
+	public GameObject redWinsText;
+	public GameObject blueWinsText;
+	public GameObject tieText;
+
 	public GameObject playerManager;
 
 	// Use this for initialization
@@ -57,6 +61,20 @@ public class Timer : MonoBehaviour {
 
 			if (sceneNumber == 3 && nextScene) {
 
+				if (GameSave.gameSave.redPlayerScore > GameSave.gameSave.bluePlayerScore) {
+					redWinsText.SetActive (true);
+				}
+
+				if (GameSave.gameSave.redPlayerScore < GameSave.gameSave.bluePlayerScore) {
+					blueWinsText.SetActive (true);
+				}
+
+				if (GameSave.gameSave.redPlayerScore == GameSave.gameSave.bluePlayerScore) {
+					tieText.SetActive (true);
+				}
+					
+				TimesUpText.SetActive (true);
+				
 				nextScene = false;
 
 				StartCoroutine (ReturnToTitle());
@@ -95,7 +113,7 @@ public class Timer : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("Stage3", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage3 Copy", LoadSceneMode.Single);
 	}
 
 	private IEnumerator ReturnToTitle()
