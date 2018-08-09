@@ -24,7 +24,7 @@ public class BottleDrop : MonoBehaviour {
         if (!Bottle.isPlaying)
         {
             Debug.Log(collision.collider.tag);
-            if (collision.collider.tag == "Ground" || collision.collider.tag == "Objects")
+            if (collision.collider.tag == "Ground" || collision.collider.tag == "Objects" || collision.collider.tag == "Player1" || collision.collider.tag == "Player2")
             {
                 Debug.Log("playBottle");
                 Bottle.Play();
