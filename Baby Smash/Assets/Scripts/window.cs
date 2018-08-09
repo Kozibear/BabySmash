@@ -7,11 +7,12 @@ public class window : MonoBehaviour {
     public Sprite brokenWindowSprite;
     public GameObject brokenGlass;
     private SpriteRenderer sr;
-
+    public AudioSource windowAudio;
 
 	// Use this for initialization
 	void Start () {
         sr = GetComponent<SpriteRenderer>();
+        windowAudio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +24,9 @@ public class window : MonoBehaviour {
     {
         sr.sprite = brokenWindowSprite;
         gameObject.tag = "BrokenWindow";
+        windowAudio.Play();
         Instantiate(brokenGlass, transform.position, transform.rotation);
+
         if (playerNumber == 1)
         {
             PlayerManager.Instance.scoreP1++;
