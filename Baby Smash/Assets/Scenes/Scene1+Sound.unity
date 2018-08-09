@@ -1706,6 +1706,31 @@ Prefab:
       propertyPath: jumpKey
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 114201446160187472, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: playerAudio
+      value: 
+      objectReference: {fileID: 745110880}
+    - target: {fileID: 82589808213711554, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114201446160187472, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: jumpAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: b587e00314090ed4385affa109893113, type: 3}
+    - target: {fileID: 114201446160187472, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: screamAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: e8b38fd7b85b39e4080d995ddf5800cf, type: 3}
+    - target: {fileID: 114201446160187472, guid: a609c2eb28a815740925f7eae65c9ff8,
+        type: 2}
+      propertyPath: jumpKey
+      value: 32
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a609c2eb28a815740925f7eae65c9ff8, type: 2}
   m_IsPrefabAsset: 0
@@ -2813,6 +2838,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!82 &745110880 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82589808213711554, guid: a609c2eb28a815740925f7eae65c9ff8,
+    type: 2}
+  m_PrefabInternal: {fileID: 485327111}
 --- !u!1001 &746728565
 Prefab:
   m_ObjectHideFlags: 0
@@ -3345,18 +3375,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &950730496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 950730491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c93287a7361041d47ae4e8c4ef2780ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bottle: {fileID: 950730495}
 --- !u!1 &974196967
 GameObject:
   m_ObjectHideFlags: 0
