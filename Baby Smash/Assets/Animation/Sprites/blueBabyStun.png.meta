@@ -8,6 +8,13 @@ TextureImporter:
     21300006: blueBabyStun 3
     21300008: blueBabyStun 4
     21300010: blueBabyStun 5
+    21300012: blueBabyStun_0
+    21300014: blueBabyStun_1
+    21300016: blueBabyStun_2
+    21300018: blueBabyStun_3
+    21300020: blueBabyStun_4
+    21300022: blueBabyStun_5
+    21300024: blueBabyStun_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -79,121 +86,141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blueBabyStun 0
+      name: blueBabyStun_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 788
-        width: 344
-        height: 236
-      alignment: 7
+        x: 2
+        y: 793
+        width: 335
+        height: 231
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56e145ec5f3bdc5449d0bf04efbe1c08
+      spriteID: 7e719ffb775d825439d26ca87306d16f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueBabyStun 1
+      name: blueBabyStun_1
       rect:
         serializedVersion: 2
-        x: 344
-        y: 788
-        width: 344
-        height: 236
-      alignment: 7
+        x: 346
+        y: 793
+        width: 338
+        height: 231
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2819ebaae46911542bc409d329219faf
+      spriteID: f1cb00ce87d996549ba9f29272000e0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueBabyStun 2
+      name: blueBabyStun_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 552
-        width: 344
-        height: 236
-      alignment: 7
+        x: 664
+        y: 973
+        width: 24
+        height: 23
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed2ea414affa21241bfff7fb1e3614b0
+      spriteID: 6bfc4be48c465554fae7c3b18e00918b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueBabyStun 3
+      name: blueBabyStun_3
       rect:
         serializedVersion: 2
-        x: 344
-        y: 552
-        width: 344
-        height: 236
-      alignment: 7
+        x: 2
+        y: 557
+        width: 335
+        height: 231
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0b41d72ea43a864a9dc3ecefe39c4be
+      spriteID: 82ace277fcfc6dd42b8c41d83708ce10
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueBabyStun 4
+      name: blueBabyStun_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 316
-        width: 344
-        height: 236
-      alignment: 7
+        x: 346
+        y: 557
+        width: 335
+        height: 231
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1015f7728734cb6438ff32c0f3e15de9
+      spriteID: b908869b664039742badc7363f352461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blueBabyStun 5
+      name: blueBabyStun_5
       rect:
         serializedVersion: 2
-        x: 344
-        y: 316
-        width: 344
-        height: 236
-      alignment: 7
+        x: 2
+        y: 321
+        width: 341
+        height: 231
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fe74189f61acea4dbfcc899fa675f6b
+      spriteID: 95e50721c9494254294aa33d4b3050f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueBabyStun_6
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 321
+        width: 335
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc89f4188ab52a43b2a2327d95ffd68
       vertices: []
       indices: 
       edges: []
