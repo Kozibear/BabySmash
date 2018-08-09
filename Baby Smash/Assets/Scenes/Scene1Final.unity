@@ -366,6 +366,8 @@ GameObject:
   - component: {fileID: 55348789}
   - component: {fileID: 55348788}
   - component: {fileID: 55348787}
+  - component: {fileID: 55348791}
+  - component: {fileID: 55348790}
   m_Layer: 0
   m_Name: Wood Beam (1)
   m_TagString: Platform
@@ -383,7 +385,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -457,6 +459,37 @@ Transform:
   m_Father: {fileID: 121275968}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &55348790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55348786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &55348791
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55348786}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &108920292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +1613,7 @@ GameObject:
   - component: {fileID: 432308809}
   - component: {fileID: 432308808}
   - component: {fileID: 432308811}
+  - component: {fileID: 432308812}
   - component: {fileID: 432308810}
   m_Layer: 0
   m_Name: Wood Beam (6)
@@ -1672,7 +1706,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!251 &432308810
+--- !u!114 &432308810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432308806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!114 &432308811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432308806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &432308812
 PlatformEffector2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1690,19 +1750,6 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!114 &432308811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 432308806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDisabledP1: 0
-  isDisabledP2: 0
 --- !u!1 &440009785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1760,8 @@ GameObject:
   - component: {fileID: 440009786}
   - component: {fileID: 440009788}
   - component: {fileID: 440009787}
+  - component: {fileID: 440009790}
+  - component: {fileID: 440009789}
   m_Layer: 0
   m_Name: Wood Beam (3)
   m_TagString: Platform
@@ -1743,7 +1792,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -1804,6 +1853,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &440009789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 440009785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &440009790
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 440009785}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &447715575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,6 +2585,8 @@ GameObject:
   - component: {fileID: 609917284}
   - component: {fileID: 609917283}
   - component: {fileID: 609917282}
+  - component: {fileID: 609917286}
+  - component: {fileID: 609917285}
   m_Layer: 0
   m_Name: Wood Beam (1)
   m_TagString: Platform
@@ -2522,7 +2604,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -2596,6 +2678,37 @@ Transform:
   m_Father: {fileID: 121275968}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &609917285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 609917281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &609917286
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 609917281}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &614075849
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,6 +6386,8 @@ GameObject:
   - component: {fileID: 1225668440}
   - component: {fileID: 1225668442}
   - component: {fileID: 1225668441}
+  - component: {fileID: 1225668444}
+  - component: {fileID: 1225668443}
   m_Layer: 0
   m_Name: Wood Beam (2)
   m_TagString: Platform
@@ -6303,7 +6418,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -6364,6 +6479,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1225668443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1225668439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1225668444
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1225668439}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1265812847
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,6 +7777,8 @@ GameObject:
   - component: {fileID: 1371007877}
   - component: {fileID: 1371007876}
   - component: {fileID: 1371007878}
+  - component: {fileID: 1371007880}
+  - component: {fileID: 1371007879}
   m_Layer: 0
   m_Name: Wood Beam
   m_TagString: Platform
@@ -7707,7 +7855,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -7722,6 +7870,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.27, y: 0.91}
   m_EdgeRadius: 0
+--- !u!114 &1371007879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371007875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1371007880
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371007875}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1402970497
 GameObject:
   m_ObjectHideFlags: 0
@@ -8461,6 +8640,8 @@ GameObject:
   - component: {fileID: 1478660206}
   - component: {fileID: 1478660208}
   - component: {fileID: 1478660207}
+  - component: {fileID: 1478660210}
+  - component: {fileID: 1478660209}
   m_Layer: 0
   m_Name: Wood Beam (7)
   m_TagString: Platform
@@ -8491,7 +8672,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -8552,6 +8733,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1478660209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478660205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1478660210
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478660205}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1587135648
 GameObject:
   m_ObjectHideFlags: 0
@@ -8562,8 +8774,9 @@ GameObject:
   - component: {fileID: 1587135649}
   - component: {fileID: 1587135651}
   - component: {fileID: 1587135650}
-  - component: {fileID: 1587135653}
   - component: {fileID: 1587135652}
+  - component: {fileID: 1587135654}
+  - component: {fileID: 1587135653}
   m_Layer: 0
   m_Name: Wood Beam (8)
   m_TagString: Platform
@@ -8668,7 +8881,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDisabledP1: 0
   isDisabledP2: 0
---- !u!251 &1587135653
+--- !u!114 &1587135653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587135648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1587135654
 PlatformEffector2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8678,7 +8904,7 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 769
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
@@ -9298,6 +9524,8 @@ GameObject:
   - component: {fileID: 1790239639}
   - component: {fileID: 1790239641}
   - component: {fileID: 1790239640}
+  - component: {fileID: 1790239643}
+  - component: {fileID: 1790239642}
   m_Layer: 0
   m_Name: Wood Beam (4)
   m_TagString: Platform
@@ -9328,7 +9556,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9389,6 +9617,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1790239642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790239638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1790239643
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790239638}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1794845133
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,6 +9658,8 @@ GameObject:
   - component: {fileID: 1794845134}
   - component: {fileID: 1794845136}
   - component: {fileID: 1794845135}
+  - component: {fileID: 1794845138}
+  - component: {fileID: 1794845137}
   m_Layer: 0
   m_Name: Wood Beam (5)
   m_TagString: Ground
@@ -9429,7 +9690,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -9490,6 +9751,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1794845137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794845133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb949f8cd05a9034d9411fe2c205ae24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDisabledP1: 0
+  isDisabledP2: 0
+--- !u!251 &1794845138
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794845133}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 769
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1856620768
 GameObject:
   m_ObjectHideFlags: 0
@@ -9916,7 +10208,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
