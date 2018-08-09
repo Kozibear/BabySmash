@@ -38,7 +38,7 @@ public class startButtonScript : MonoBehaviour {
 		}
 
 		if (darkenScreen && blackBackgroundColor.a >= 1) {
-				SceneManager.LoadScene ("BugFrienD's Scene", LoadSceneMode.Single);
+			SceneManager.LoadScene ("Scene1Final", LoadSceneMode.Single);
 		}
 
 	}
