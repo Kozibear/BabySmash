@@ -10,6 +10,14 @@ TextureImporter:
     21300010: redBabyCraw 5
     21300012: redBabyCraw 6
     21300014: redBabyCraw 7
+    21300016: redBabyCraw_0
+    21300018: redBabyCraw_1
+    21300020: redBabyCraw_2
+    21300022: redBabyCraw_3
+    21300024: redBabyCraw_4
+    21300026: redBabyCraw_5
+    21300028: redBabyCraw_6
+    21300030: redBabyCraw_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -81,161 +89,161 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: redBabyCraw 0
+      name: redBabyCraw_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 839
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 844
+        width: 252
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0533f3e9e12352c4e9cd8224f3b7e84b
+      spriteID: aad4ae263dd018949ac8790b6b457119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redBabyCraw 1
+      name: redBabyCraw_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 839
+        width: 245
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b94776cbedf2304b97496ad9fa7b9b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redBabyCraw_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 844
+        width: 241
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f2e3893a27b7f459f1707e7d45c7e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redBabyCraw_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 661
+        width: 232
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed40c487d10a6904282146065b0a31f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redBabyCraw_4
       rect:
         serializedVersion: 2
         x: 260
-        y: 839
+        y: 657
         width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d4b3c8c8ab3c3f479cfbd740370a3f8
+      spriteID: 6eca1823347fa104193f94fbf39d954b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redBabyCraw 2
+      name: redBabyCraw_5
       rect:
         serializedVersion: 2
         x: 520
-        y: 839
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1a38621f9c439841a9a67d6fb1d9e35
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: redBabyCraw 3
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 654
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        width: 252
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0490f74c363a10e439ff319e1c1f30de
+      spriteID: cb99e9d0f2b7c6948bd06bbb056e70f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redBabyCraw 4
+      name: redBabyCraw_6
       rect:
         serializedVersion: 2
-        x: 260
-        y: 654
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 475
+        width: 247
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90e44162d1ec74948ad34f3836649a81
+      spriteID: ffd971377897c0c4eb8e54cb9581f460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redBabyCraw 5
+      name: redBabyCraw_7
       rect:
         serializedVersion: 2
-        x: 520
-        y: 654
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 269
+        y: 475
+        width: 242
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 418dae18255d92e43a8b3dd4507bcbb8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: redBabyCraw 6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 469
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b073347de9a807e45a627895332fe2de
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: redBabyCraw 7
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 469
-        width: 260
-        height: 185
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b5807c76025d564c9e74d44d4601d81
+      spriteID: 0427cebdc3e040c48a5cd944db9a77cc
       vertices: []
       indices: 
       edges: []

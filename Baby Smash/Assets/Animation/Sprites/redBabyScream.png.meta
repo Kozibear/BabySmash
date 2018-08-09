@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -83,17 +83,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 733
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bafb717b4cea0140898095eb54d51d6
+      spriteID: e54efba37fda13b44bedc6c3595aaff9
       vertices: []
       indices: 
       edges: []
@@ -102,18 +102,18 @@ TextureImporter:
       name: redBabyScream 1
       rect:
         serializedVersion: 2
-        x: 395
-        y: 733
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 791
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58f083d42b390e742b87e7a9ec28a606
+      spriteID: ff40294629c35db4689b71c73ac2ba85
       vertices: []
       indices: 
       edges: []
@@ -122,18 +122,18 @@ TextureImporter:
       name: redBabyScream 2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 442
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 1582
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1ff25a500616414598bd980c50734df
+      spriteID: afbbe9c7e2eabaf46b802e8b9f7098d2
       vertices: []
       indices: 
       edges: []
@@ -142,18 +142,18 @@ TextureImporter:
       name: redBabyScream 3
       rect:
         serializedVersion: 2
-        x: 395
-        y: 442
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 2373
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a4fb34efb38f2f42bfead160f1d2652
+      spriteID: 8657a4fa52661df489421b80ab6621ac
       vertices: []
       indices: 
       edges: []
@@ -162,18 +162,18 @@ TextureImporter:
       name: redBabyScream 4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 151
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 3164
+        y: 1356
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71cc913eb74b926448f04cb1b057b771
+      spriteID: b21adbce43586164db3843877e09b187
       vertices: []
       indices: 
       edges: []
@@ -182,18 +182,18 @@ TextureImporter:
       name: redBabyScream 5
       rect:
         serializedVersion: 2
-        x: 395
-        y: 151
-        width: 395
-        height: 291
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 664
+        width: 791
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59ccdb68797d1d4429aa8ecbd3f186cf
+      spriteID: 672733644fe4ad74f8233991d66692d5
       vertices: []
       indices: 
       edges: []
@@ -201,7 +201,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 53718242768842c4e8bbf8d2522e30fc
+    spriteID: fdb5fd797df9b37458d95ea9a41a1fba
     vertices: []
     indices: 
     edges: []
