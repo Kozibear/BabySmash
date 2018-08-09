@@ -282,11 +282,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftKey: 97
   rightKey: 100
-  jumpKey: 0
+  jumpKey: 32
   screamKey: 102
-  jumpAudio: {fileID: 0}
-  screamAudio: {fileID: 0}
-  playerAudio: {fileID: 0}
+  jumpAudio: {fileID: 8300000, guid: b587e00314090ed4385affa109893113, type: 3}
+  screamAudio: {fileID: 8300000, guid: e8b38fd7b85b39e4080d995ddf5800cf, type: 3}
+  playerAudio: {fileID: 82589808213711554}
 --- !u!114 &114753666824696068
 MonoBehaviour:
   m_ObjectHideFlags: 1
