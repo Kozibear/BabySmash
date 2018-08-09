@@ -113,7 +113,7 @@ public class Timer : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (3);
 
-		SceneManager.LoadScene ("Stage3", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Stage3 Copy", LoadSceneMode.Single);
 	}
 
 	private IEnumerator ReturnToTitle()
