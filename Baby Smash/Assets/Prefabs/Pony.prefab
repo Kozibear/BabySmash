@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 61293538656661840}
   - component: {fileID: 50844545174075124}
   - component: {fileID: 114466834095016024}
+  - component: {fileID: 95235453929305416}
   m_Layer: 0
   m_Name: Pony
   m_TagString: Untagged
@@ -67,7 +68,7 @@ Transform:
   m_GameObject: {fileID: 1602739985973612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.67, y: -0.68, z: 0}
-  m_LocalScale: {x: 0.61625004, y: 0.37687498, z: 1}
+  m_LocalScale: {x: 0.62, y: 0.66, z: 1}
   m_Children:
   - {fileID: 4143577529281014}
   m_Father: {fileID: 0}
@@ -108,8 +109,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.72, y: 1.64}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2.16, y: 2.28}
     newSize: {x: 1.72, y: 1.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -118,6 +119,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.72, y: 1.64}
   m_EdgeRadius: 0
+--- !u!95 &95235453929305416
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602739985973612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 659bcab1e086ae24dbc2b6e569456752, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!96 &96711714635439210
 TrailRenderer:
   serializedVersion: 2
@@ -175,8 +194,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.54908407, b: 0, a: 1}
-      key1: {r: 0, g: 0.9622642, b: 0.04972164, a: 0.81960785}
+      key0: {r: 0.6886792, g: 0.49052152, b: 0.6402812, a: 1}
+      key1: {r: 1, g: 0.2971698, b: 0.48212507, a: 0.81960785}
       key2: {r: 0, g: 0, b: 0, a: 0.81960785}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -260,8 +279,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e00bcdc3b9260994fbf7d5ecb536876b, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.051280975, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4f4a0619903e2b3488c61e824a18eace, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
