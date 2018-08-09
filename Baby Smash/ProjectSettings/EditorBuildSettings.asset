@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 45a63ef4ff191f2429f6bccca48a6ce9
   - enabled: 1
-    path: Assets/Scenes/BugFrienD's Scene.unity
-    guid: f7f7f9149cfe45c42a1dc65b9fbe078f
+    path: Assets/Scenes/Scene1Final.unity
+    guid: c45740e66bc98de4db137b2e4f8561e8
   - enabled: 1
+    path: Assets/Scenes/Sence2Final.unity
+    guid: ff2ece503c5be994e81730ba043b0e22
+  - enabled: 1
+    path: Assets/Scenes/Stage3Final.unity
+    guid: 3e26dd62c1dd5e24c8ad782c83a9db9f
+  - enabled: 0
     path: Assets/Scenes/Stage2.unity
     guid: 9272d38c188feaa44b29f7127225cc70
-  - enabled: 1
-    path: Assets/Scenes/Stage3.unity
-    guid: 3e26dd62c1dd5e24c8ad782c83a9db9f
+  - enabled: 0
+    path: Assets/Scenes/BugFrienD's Scene.unity
+    guid: f7f7f9149cfe45c42a1dc65b9fbe078f
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
