@@ -38,8 +38,8 @@ public class PlayerManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        scoreP1Text.text = "Player1 Score:" + scoreP1.ToString();
-        scoreP2Text.text = "Player2 Score:" + scoreP2.ToString();
+        scoreP1Text.text = "Player 1 Score: " + scoreP1.ToString();
+        scoreP2Text.text = "Player 2 Score: " + scoreP2.ToString();
     }
 
 }
