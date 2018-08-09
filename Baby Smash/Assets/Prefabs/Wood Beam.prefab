@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDisabledP1: 0
+  isDisabledP2: 0
 --- !u!212 &212969862880259196
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -136,7 +137,7 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 257
+    m_Bits: 769
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0

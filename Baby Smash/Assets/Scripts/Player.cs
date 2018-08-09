@@ -27,6 +27,10 @@ public class Player : MonoBehaviour {
     private float[] screamArray;
     private float stunnedTimeVal;
 
+    public bool IsJumping
+    {
+        get {return isJumping; }
+    }
 
     private Rigidbody2D rb;
 

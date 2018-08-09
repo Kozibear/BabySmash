@@ -7,8 +7,8 @@ public class Platform : MonoBehaviour {
     private PlatformEffector2D pe2d;
     private float disableTimeValP1=0.5f;
     public bool isDisabledP1=false;
-    //private float disableTimeValP2 = 0.5f;
-    //public bool isDisabledP2 = false;
+    private float disableTimeValP2 = 0.5f;
+    public bool isDisabledP2 = false;
 
     // Use this for initialization
     void Start () {
@@ -27,36 +27,36 @@ public class Platform : MonoBehaviour {
             {
                 isDisabledP1 = false;
                 disableTimeValP1 = 0.5f;
-                pe2d.colliderMask += 8;
+                pe2d.colliderMask = 1 << 8|1<<0|1<<9;
             }
         }
-        //if (isDisabledP2)
-        //{
-        //    if (disableTimeValP2 >= 0)
-        //    {
-        //        disableTimeValP2 -= Time.deltaTime;
-        //    }
-        //    else if (disableTimeValP2 <= 0)
-        //    {
-        //        isDisabledP2 = false;
-        //        disableTimeValP2 = 0.5f;
-        //        pe2d.colliderMask += 9;
-        //    }
-        //}
+        if (isDisabledP2)
+        {
+            if (disableTimeValP2 >= 0)
+            {
+                disableTimeValP2 -= Time.deltaTime;
+            }
+            else if (disableTimeValP2 <= 0)
+            {
+                isDisabledP2 = false;
+                disableTimeValP2 = 0.5f;
+                pe2d.colliderMask= 1 << 8 | 1 << 0 | 1 << 9;
+            }
+        }
     }
 
     private void JumpDown(float playerNumber)
     {
-        //if (playerNumber == 1)
-        //{
-            pe2d.colliderMask -= 8;
+        if (playerNumber == 1)
+        {
+            pe2d.colliderMask = ~(1 <<8);
             isDisabledP1 = true;
-        //}
-        //if (playerNumber == 2)
-        //{
-        //    pe2d.colliderMask -= 9; 
-        //    isDisabledP2 = true;
-        //}
+        }
+        if (playerNumber == 2)
+        {
+            pe2d.colliderMask = ~(1 << 9);
+            isDisabledP2 = true;
+        }
 
     }
 

@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50799281935518708}
   - component: {fileID: 61027026468399492}
   - component: {fileID: 114430004177620752}
+  - component: {fileID: 114539620440704714}
   m_Layer: 0
   m_Name: OrdinaryObjects (1)
   m_TagString: Objects
@@ -99,6 +100,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114539620440704714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087749663429932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93287a7361041d47ae4e8c4ef2780ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bottle: {fileID: 0}
 --- !u!212 &212428390276236604
 SpriteRenderer:
   m_ObjectHideFlags: 1
