@@ -249,6 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &24023427
 AudioSource:
   m_ObjectHideFlags: 0
@@ -696,6 +698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &197152433
 Rigidbody2D:
   serializedVersion: 4
@@ -1035,7 +1039,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4253038373926322, guid: 6e4359ff3ba8abb4fa5a5ca7433ca8a6, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e4359ff3ba8abb4fa5a5ca7433ca8a6, type: 2}
@@ -1072,6 +1076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &312681784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1511,6 +1517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &402702269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2020,6 +2028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &447715581
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2304,6 +2314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &471188823
 Rigidbody2D:
   serializedVersion: 4
@@ -2799,7 +2811,7 @@ RectTransform:
   - {fileID: 1067598257}
   - {fileID: 1693102702}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2942,6 +2954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!114 &622775878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3135,6 +3149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &701913809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3378,6 +3394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!58 &708861445
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3701,7 +3719,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &784682397
 GameObject:
@@ -3855,6 +3873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &784682402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4173,6 +4193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &837123103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4296,6 +4318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &894768696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4755,6 +4779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &974196973
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4894,6 +4920,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &999543087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5229,6 +5257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1018557324
 Rigidbody2D:
   serializedVersion: 4
@@ -5495,7 +5525,7 @@ Transform:
   m_LocalScale: {x: 0.16983046, y: 0.16983046, z: 0.16983046}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1024166836
 Rigidbody2D:
@@ -5528,6 +5558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 0}
 --- !u!82 &1024166838
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5874,6 +5905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1072673860
 Rigidbody2D:
   serializedVersion: 4
@@ -6305,6 +6338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &1224737053
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6575,6 +6610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!58 &1265812851
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6813,6 +6850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1279923799
 Rigidbody2D:
   serializedVersion: 4
@@ -7141,7 +7180,7 @@ Transform:
   m_LocalScale: {x: 0.3130394, y: 0.30872402, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.314}
 --- !u!50 &1325966686
 Rigidbody2D:
@@ -7269,6 +7308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 0}
 --- !u!114 &1325966689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7453,6 +7493,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &1355648899
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7660,6 +7702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &1360292757
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8073,6 +8117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &1402970503
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8316,6 +8362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!61 &1415616866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8564,6 +8612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1477654167
 Rigidbody2D:
   serializedVersion: 4
@@ -9131,6 +9181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!212 &1712573960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10040,6 +10092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1872063214
 Rigidbody2D:
   serializedVersion: 4
@@ -10179,7 +10233,7 @@ Transform:
   m_LocalScale: {x: 1.65, y: 1.126, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919220425
 GameObject:
@@ -10472,6 +10526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &1939108774
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10715,6 +10771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!82 &1943327905
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10999,6 +11057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!50 &1991119474
 Rigidbody2D:
   serializedVersion: 4
@@ -11371,7 +11431,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2126766314 stripped
 GameObject:
@@ -11485,45 +11545,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bottle: {fileID: 2126766318}
---- !u!1001 &2147258702
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.01999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -4.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.099609375
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4668800510218562, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 589bf07b96d513e4db388d9caa48fce3, type: 2}
-  m_IsPrefabAsset: 0

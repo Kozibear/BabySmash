@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9318ca6fa5a89b4b94319282cccbc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakEffect: {fileID: 1780088648665486, guid: 6a585bbec02207c4ab0a2e177e42a1aa,
+    type: 2}
 --- !u!114 &114539620440704714
 MonoBehaviour:
   m_ObjectHideFlags: 1

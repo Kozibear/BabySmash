@@ -6,6 +6,7 @@ public class Objects : MonoBehaviour {
 
     private Vector3 forceDirection;
     private SpriteRenderer sr;
+    public GameObject breakEffect;
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +30,23 @@ public class Objects : MonoBehaviour {
         {
             gameObject.tag = "Object2";
             sr.color = new Vector4(0, 0, 255, 255);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Ground")
+        {
+            if (gameObject.tag == "Object1")
+            {
+                PlayerManager.Instance.scoreP1++;
+            }
+            if (gameObject.tag == "Object2")
+            {
+                PlayerManager.Instance.scoreP2++;
+            }
+            Destroy(gameObject);
+            Instantiate(breakEffect, transform.position, transform.rotation);
         }
     }
 
