@@ -596,7 +596,7 @@ Prefab:
         type: 2}
       propertyPath: TimesUpText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1258054741}
     - target: {fileID: 114990515067873082, guid: ece91f9095d12fa429ec5e7b61b2b4cc,
         type: 2}
       propertyPath: timeLeft
